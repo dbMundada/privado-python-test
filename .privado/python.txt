@@ -1,17 +1,17 @@
 
 ---------------------------------------------------------------------------------------------------------
-Total number of function calls: 319
+Total number of function calls: 334
 
-Calls with unresolved signatures: 26
-8.150470219435737% of total calls are unresolved
+Calls with unresolved signatures: 25
+7.485029940119761% of total calls are unresolved
 
-Calls with unresolved signatures having callee: 7
-26.923076923076923% of unresolved signatures having callee from unresolved signatures
+Calls with unresolved signatures having callee: 6
+24.0% of unresolved signatures having callee from unresolved signatures
 
 Calls with unresolved namespace: 0
 
-Resolved function calls: 293
-91.84952978056427% calls resolved
+Resolved function calls: 309
+92.51497005988024% calls resolved
 ---------------------------------------------------------------------------------------------------------
 List of Calls with Unresolved Signatures:
 1 - <unknownFullName>(__iter__)
@@ -74,47 +74,43 @@ List of Calls with Unresolved Signatures:
 	Line Number: 5
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/inheritance/MongoConnection.py
 	Callee FullName: List()
-16 - <unknownFullName>(find_one)
-	Line Number: 9
-	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/inheritance/InstallationDao.py
-	Callee FullName: List(__builtin.None.find_one, pymongo.py:<module>.MongoClient.<init>.<indexAccess>.<indexAccess>.find_one)
-17 - <unknownFullName>()
+16 - <unknownFullName>()
 	Line Number: 4
+	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/inheritance/InstallationDao.py
+	Callee FullName: List()
+17 - <unknownFullName>()
+	Line Number: 3
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/inheritance/InstallationDao.py
 	Callee FullName: List()
 18 - <unknownFullName>()
 	Line Number: 3
-	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/inheritance/InstallationDao.py
-	Callee FullName: List()
-19 - <unknownFullName>()
-	Line Number: 3
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/nested-object.py
 	Callee FullName: List()
-20 - <unknownFullName>(__init__)
+19 - <unknownFullName>(__init__)
 	Line Number: 3
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/nested-object.py
 	Callee FullName: List(src/inheritance/MongoConnection.py:<module>.MongoConnection.MongoConnection<body>.__init__, src/inheritance/InstallationDao.py:<module>.InstallationsDAO.InstallationsDAO<body>.__init__)
-21 - <unknownFullName>()
+20 - <unknownFullName>()
 	Line Number: 3
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/nested-object.py
 	Callee FullName: List()
-22 - <unknownFullName>()
+21 - <unknownFullName>()
 	Line Number: 9
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/collections/fastapi.py
 	Callee FullName: List()
-23 - <unknownFullName>()
+22 - <unknownFullName>()
 	Line Number: 14
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/collections/fastapi.py
 	Callee FullName: List()
-24 - <unknownFullName>()
+23 - <unknownFullName>()
 	Line Number: 4
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/exception-block-coverage.py
 	Callee FullName: List()
-25 - <unknownFullName>(__init__)
+24 - <unknownFullName>(__init__)
 	Line Number: 4
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/exception-block-coverage.py
 	Callee FullName: List(src/inheritance/MongoConnection.py:<module>.MongoConnection.MongoConnection<body>.__init__, src/inheritance/InstallationDao.py:<module>.InstallationsDAO.InstallationsDAO<body>.__init__)
-26 - <unknownFullName>()
+25 - <unknownFullName>()
 	Line Number: 4
 	File: /Users/dattaprasadmundada/Documents/tmp/privado-python-test/src/exception-block-coverage.py
 	Callee FullName: List()

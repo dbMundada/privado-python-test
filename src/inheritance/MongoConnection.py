@@ -13,7 +13,7 @@ class MongoConnection(object):
         )
         # self.client = MongoClient(host=[DATABASES['MONGO']['HOST']])
         self.db = self.client[DATABASES['MONGO']['DATABASE']]
-        self.collection = None
+        # self.collection = None
 
     def get_collection(self, name):
         self.collection = self.db[name]
