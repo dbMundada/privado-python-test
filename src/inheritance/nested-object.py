@@ -2,9 +2,9 @@ import requests
 
 class TestClient:
     def get_event_data(self, accountId):
-        payload = { "accountId": accountId }
+        payload = { "test": accountId }
         r = requests.get(
-            "https://www.nested-object.com/v3/users/me/",
+            "https://www.apple.com/v3/users/me/",
             params=payload
         )
 
